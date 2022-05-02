@@ -1,0 +1,17 @@
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\VietnamWork_SearchSytem_Testing.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\App.g.cs
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\VietnamWork_SearchSytem_Testing_MarkupCompile.cache
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\bin\Debug\VietnamWork_SearchSytem_Testing.exe.config
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\bin\Debug\VietnamWork_SearchSytem_Testing.exe
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\bin\Debug\VietnamWork_SearchSytem_Testing.pdb
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\bin\Debug\WebDriver.dll
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\VietnamWork_SearchSytem_Testing_MarkupCompile.lref
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\MainWindow.baml
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\VietnamWork_SearchSytem_Testing.g.resources
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\VietnamWork_SearchSytem_Testing.Properties.Resources.resources
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\VietnamWork_SearchSytem_Testing.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\VietnamWork_SearchSytem_Testing.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\VietnamWork_SearchSytem_Testing.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\VietnamWork_SearchSytem_Testing.exe
+C:\Users\Admin\OneDrive\Máy tính\BKEL\212\Tester\Project\Pj3\VietnamWork_SearchSytem_Testing\VietnamWork_SearchSytem_Testing\obj\Debug\VietnamWork_SearchSytem_Testing.pdb
