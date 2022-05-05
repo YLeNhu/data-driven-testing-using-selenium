@@ -81,15 +81,6 @@ public class PaymentFeatureTest {
             chromedriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
             WebElement reservationForm = chromedriver.findElement(By.cssSelector("#reservation_details"));
         	
-//        	System.out.println("[1][0]" + String.valueOf(excelUtils.getCellData(i,0)));
-//        	
-//        	System.out.println("[1][1]" + String.valueOf(excelUtils.getCellData(i,1)));
-//        	
-//        	
-//        	System.out.println("[1][2]" + String.valueOf(excelUtils.getCellData(i,2)));
-//        	
-//        	System.out.println("[1][3]" + String.valueOf(excelUtils.getCellData(i,3)));
-        	
         	chromedriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
         	checkInField.clear();
         	checkInField.sendKeys(excelUtils.getCellData(i,0));
@@ -143,7 +134,7 @@ public class PaymentFeatureTest {
             }
             catch (Exception e) {
             	
-            	System.out.println("Completed testcase " + i + " with test case ID: " + String.valueOf(excelUtils.getCellData(i,9)));
+            	System.out.println("Fail testcase " + i + " with test case ID: " + String.valueOf(excelUtils.getCellData(i,9)));
             	
             }
         	
@@ -163,7 +154,7 @@ public class PaymentFeatureTest {
         	
             else{
             	
-            	System.out.println("Completed testcase " + i + " with test case ID: " + String.valueOf(excelUtils.getCellData(i,9)) + " but didn't meet expected output!");
+            	System.out.println("Fail testcase " + i + " with test case ID: " + String.valueOf(excelUtils.getCellData(i,9)));
             }
         }
 

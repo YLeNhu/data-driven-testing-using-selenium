@@ -731,7 +731,6 @@ public class StatisticForAdminTest {
           
         }
 
-        
         System.out.println("=========Completed all testcase!======");
         
         //closing the driver

@@ -14,28 +14,26 @@ import java.time.Duration;
 
 public class ReservationFeatureTest {
     
-	//creating object of ExcelUtils class
+	//Creating object of ExcelUtils class
     static ExcelUtils excelUtils = new ExcelUtils();
     
-    //using the Constants class values for excel file path 
+    //Using the Constants class values for excel file path 
     static String excelFilePath =Constants.Path_TestData+Constants.File_TestData;
 
     public static  void main(String args[]) throws IOException, InterruptedException {
-        //set the Chrome Driver path
+        //Set the Chrome Driver path
         System.setProperty("webdriver.chrome.driver","D:\\Programs\\Eclipse Workspace\\Bug Killers_PJ3\\src\\chromedriver.exe");
         
         //Creating an object of ChromeDriver
         WebDriver chromedriver = new ChromeDriver();
         
-        //launching the specified URL
+        //Launching the specified URL
         chromedriver.get("http://localhost/hotel-management-php/");
-        
-        //Identify the WebElements 
-        
-        //calling the ExcelUtils class method to initialise the workbook and sheet
+                
+        //Calling the ExcelUtils class method to initialise the workbook and sheet
         excelUtils.setExcelFile(excelFilePath,"Reservation");
               
-        //iterate over all the row to print the data present in each cell.
+        //Iterate over all the row to print the data present in each cell.
         System.out.println("==========Sending  testcase!========");
         for(int i = 1 ;i <= excelUtils.getRowCountInSheet();i++)
         {
@@ -77,14 +75,6 @@ public class ReservationFeatureTest {
             chromedriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
             WebElement reservationForm = chromedriver.findElement(By.cssSelector("#reservation_details"));
         	
-//        	System.out.println("[1][0]" + String.valueOf(excelUtils.getCellData(i,0)));
-//        	
-//        	System.out.println("[1][1]" + String.valueOf(excelUtils.getCellData(i,1)));
-//        	
-//        	
-//        	System.out.println("[1][2]" + String.valueOf(excelUtils.getCellData(i,2)));
-//        	
-//        	System.out.println("[1][3]" + String.valueOf(excelUtils.getCellData(i,3)));
         	
         	chromedriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
         	checkInField.clear();
@@ -113,14 +103,14 @@ public class ReservationFeatureTest {
         		reservationForm.click();
         	}
         	catch (Exception e) {
-        		System.out.println(e);
+        		System.out.println("Fail testcase " + i + "with test case ID: " + String.valueOf(excelUtils.getCellData(i,5)));
         	}
         	
         	Thread.sleep(1000);
         	chromedriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
         	
-        	WebElement accountButton2 = chromedriver.findElement(By.xpath("//*[@id='navbarDropdown']"));
-            accountButton2.click();
+        	WebElement accountButtonForLogOut = chromedriver.findElement(By.xpath("//*[@id='navbarDropdown']"));
+            accountButtonForLogOut.click();
 
             chromedriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(80));
             var logoutButton = chromedriver.findElement(By.xpath("//*[@id='navbarSupportedContent']/ul/li[5]/div/a[3]"));
@@ -132,7 +122,7 @@ public class ReservationFeatureTest {
         
         System.out.println("=========Completed all testcase!======");
         
-        //closing the driver
+        //Closing the driver
         
         chromedriver.quit();
     }
